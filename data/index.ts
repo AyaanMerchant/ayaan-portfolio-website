@@ -107,35 +107,39 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Ayaan Merchant was a transformative experience. His keen eye for detail and innovative approach brought our project to life. The results were beyond our expectations. Ayaan is a true professional who understands the nuances of web development.",
+      name: "Sarah Thompson",
+      title: "CEO of Innovatech Solutions",
+      // image: "/cloud.svg",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Ayaan Merchant's expertise and commitment were evident from the start. He took the time to understand our needs and delivered a website that exceeded all our expectations. His ability to translate our vision into reality is remarkable.",
+      name: "James Carter",
+      title: "Marketing Director at Digital Horizons",
+      // image: "/cloud.svg",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "I was thoroughly impressed by Ayaan Merchant's work. His ability to seamlessly integrate design and functionality made our platform stand out. Ayaan is not just a developer but a partner who is genuinely invested in the success of his clients.",
+      name: "Emily Garcia",
+      title: "Founder of GreenTech Enterprises",
+      // image: "/cloud.svg",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Ayaan Merchant's technical skills and creative vision were instrumental in the success of our project. He was always responsive and went above and beyond to ensure we were satisfied with the outcome. I highly recommend Ayaan for any web development needs.",
+      name: "David Lee",
+      title: "CTO at Nexus Innovations",
+      // image: "/cloud.svg",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Ayaan Merchant's dedication and expertise are unmatched. He transformed our outdated website into a modern, user-friendly platform that has significantly improved our customer engagement. His work is nothing short of outstanding.",
+      name: "Olivia Martinez",
+      title: "Operations Manager at Bright Future Inc.",
     },
-  ];
+  ];  
   
   export const companies = [
     {
@@ -173,33 +177,34 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Data Analyst Intern",
+      desc: "Analyzed data to uncover insights and enhance platform interactivity using React.js.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Front End Developer",
+      desc: "Created and optimized user-facing features with modern frontend technologies.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "AI and ML Engineer",
+      desc: "Developed and implemented machine learning models to solve complex problems.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "PowerBI Freelancer",
+      desc: "Designed and delivered interactive PowerBI dashboards for data visualization.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
   ];
+  
   
   export const socialMedia = [
     {
