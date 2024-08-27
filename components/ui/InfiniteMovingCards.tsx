@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { cn } from "../../utlis/cn";
+import { testimonials } from "../../data";
 
 export const InfiniteMovingCards = ({
   items,
@@ -11,6 +12,7 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
+    image: string | undefined;
     quote: string;
     name: string;
     title: string;
@@ -106,7 +108,7 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3">
-                    <img src={"/profile.svg"} alt="profile" />
+                    <img src={item.image} alt="profile" />
                   </div>
                   <div className="flex flex-col gap-1">
                     <span className=" text-xl leading-[1.6] text-white font-bold">
